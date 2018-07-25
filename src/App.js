@@ -10,6 +10,7 @@ export default class App extends Component {
       <div>asdas</div>
       <div>asdas</div>
       <div>asdas</div>
+      <div>asdas</div>
         qeweqweqeqwe
       </div>
     )
