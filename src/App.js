@@ -5,6 +5,11 @@ export default class App extends Component {
     return (
       <div className='ashdkkjashd'>
       <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
         qeweqweqeqwe
       </div>
     )
