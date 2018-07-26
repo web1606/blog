@@ -1,18 +1,18 @@
-import browserlist from './browserlist';
+// const browserlist = require('./browserlist')
 
- export  default {
+module.export = {
   presets: [
-    ['env', {
-      modules: false,
-      targets: {
-        browsers: browserlist,
-      },
-    }],
+    [
+      'env',
+      {
+        modules: false,
+        // targets: {
+        //   browsers: browserlist
+        // }
+      }
+    ],
     'react',
-    'stage-2',
+    'stage-2'
   ],
-  plugins: [
-    'transform-runtime',
-    'import'
-  ],
-};
+  plugins: ['transform-runtime', 'import']
+}
